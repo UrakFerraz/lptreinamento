@@ -1,0 +1,1478 @@
+<!doctype html>
+<html ⚡>
+  <head>
+    <meta charset="utf-8">
+    <title>I'Max - Communicate More</title>
+    <meta name="theme-color" content="#216583">
+    <meta http-equiv="Content-Language" content="pt-br">
+    <meta name="title" content="Maxpress e I’M Press agora são I’Max">
+    <meta name="description" content="O I’Max é uma nova jornada tecnológica que nasce da fusão entre a tradição que a Maxpress inspira com a mentalidade de startup do I’M Press - dois grandes fornecedores de tecnologia de comunicação. Conheça o que o I’Max pode fazer por você!">
+    <link rel="canonical" href="index.html">
+    <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
+
+
+
+    <style amp-custom>
+
+:root {
+  --redColor: #d65a31;
+
+  /*cor de fundo*/
+  --darkBlueColor: #2b4353;
+
+  --grayColor: #6b778d;
+
+  --lightGrayColor: #eeeeee;
+
+  /*cor azul escura*/
+  --darkGrayColor: #222831;
+
+  --greenColor: #4be3ac;
+
+  --defaultFontSize: 17px;
+  --titlesFontSize: 27px;
+  --subtitlesFontSize: 20px;
+  --thinFont: 15px;
+}
+
+
+body {
+  background-color: #2b4353;
+}
+
+
+h1, h2, h3, h4, h5, p, span, a, button, div, ul, li {
+  font-family: 'Kanit', sans-serif;
+  font-size: var(--defaultFontSize);
+  font-weight: 300;
+  color: var(--greenColor);
+  line-height: 1.2;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+
+.boxShadow {
+  box-shadow: 0 0 30px 0 rgba(0,0,0,0.3);
+}
+
+.boxModel {
+  position: relative;
+  display: block;
+  box-sizing: border-box;
+}
+
+.boxModelFlex {
+  position: relative;
+  display: flex;
+  box-sizing: border-box;
+}
+
+.boxModelGrid {
+  position: relative;
+  display: grid;
+  box-sizing: border-box;
+}
+
+
+
+button, a {
+  background-color: var(--redColor);
+  flex-direction: row;
+  flex-wrap: nowrap;
+  border: none;
+  border-radius: 8px;
+  padding: 20px;
+  align-items: center;
+  margin: 0 auto;
+  cursor: pointer;
+  transition: 0.3s ease all;
+  box-shadow: 0 0 50px 0 rgba(0,0,0,0.3);
+  overflow: hidden;
+}
+
+button span, a span {
+  color: var(--darkGrayColor);
+  font-weight: 600;
+  font-size: 25px;  
+}
+
+
+button svg, a svg {
+  flex-grow: 1;
+  width: 35px;
+  height: 35px;
+  fill: var(--darkGrayColor);
+  margin-left: 10px;
+}
+
+
+button:hover {
+  background-color: var(--greenColor);
+  transform: scale(0.98);
+  box-shadow: 0 0 10px 0 rgba(0,0,0,0.1);
+}
+
+
+
+
+
+
+
+
+
+.container {
+  width: 100%;
+  flex-direction: column;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*header container ///////////////////////////////////// */
+
+.headerContainer {
+  overflow: hidden;
+  width: 100%;
+  height: 90vh;
+}
+
+.roundRectangle {
+  position: absolute;
+  box-sizing: border-box;
+  display: block;
+  background-color: transparent;
+  border: 1px solid var(--darkBlueColor);
+    width: 50%;
+    height: 120%;
+    border-radius: 50px;
+    transform: rotate(-26deg) translate(130px, -391px);
+}
+
+.roundRectangleLine {
+  position: absolute;
+  box-sizing: border-box;
+  display: block;
+  background-color: transparent;
+  border: 1px solid var(--greenColor);
+    width: 50%;
+    height: 120%;
+    border-radius: 50px;
+    transform: rotate(-26deg) translate(147px, -418px);
+}
+
+.headerContainer {
+  box-sizing: border-box;
+  display: block;
+  background: linear-gradient(rgba(0, 0, 0, 0.45), rgba(43, 67, 83, 1)), url(img/image05.jpg);
+  background-repeat: no-repeat;
+  background-origin: 50% 50%;
+  background-size: cover;
+}
+
+.roundRectanglePhotoLine {
+  position: absolute;
+  box-sizing: border-box;
+  display: block;
+  background-color: transparent;
+  border: 1px solid var(--greenColor);
+    width: 50%;
+    height: 75%;
+    border-radius: 50px;
+    transform: rotate(-26deg) translate(227px, -33px);
+    right: 0;
+    top: 0;
+}
+
+.heroTexts {
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  margin-top: 60px;
+}
+
+.heroTexts h1 {
+  font-size: 100px;
+  text-transform: uppercase;
+  font-weight: 200;
+  text-align: center;
+  line-height: 1;
+  color: #fff;
+}
+
+.heroTexts h2 {
+  font-size: 50px;
+  font-weight: 200;
+  text-align: center;
+  color: #fff;
+}
+
+.heroTexts amp-img {
+  width: 40%;
+  transition: 0.3s ease-out all;
+  margin-top: 40px;
+}
+
+.heroTexts amp-img:hover {
+  transform: scale(1.05);
+}
+
+
+.heroText {
+  width: 70%;
+  margin: 0 auto;
+  text-align: justify;
+  font-size: 25px;
+  font-weight: 200;
+  line-height: 1.5;
+}
+
+
+.programBlocks .heroText {
+  margin-top: 40px;
+  grid-column: 1 / -1;
+  width: 100%;
+}
+
+.programBlocks amp-img {
+  grid-column: 1 / -1;
+  width: 100%;
+  max-width: 1000px;
+  height: auto;
+  margin: 0 auto;
+}
+
+
+.ctaBtn1 {
+  margin: 100px auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*/////////////////////////// /////////////////////////// ///////////// voce vai aprender /////////////////*/
+.programBlocks {
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  grid-gap: 30px;
+  width: 100%;
+  max-width: 1300px;
+  margin: 0 auto;
+}
+
+
+
+
+
+
+.programBlocksHeader {
+  flex-direction: row;
+  align-items: center;
+  flex-wrap: nowrap;
+  margin: 0 auto;
+  grid-column: 1 / -1;
+}
+
+.programBlocksHeader svg {
+  width: 100px;
+  height: 100px;
+  stroke: var(--greenColor);
+  margin-right: 20px;
+  flex-grow: 1;
+}
+
+.programBlocksHeader span {
+  font-size: 70px;
+  font-weight: 100;
+  flex-grow: 1;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.programBlock {
+  grid-template-columns: 1fr;
+  grid-template-rows: 200px auto;
+  justify-content: stretch;
+  align-items: center;
+  border: 1px solid var(--greenColor);
+  border-radius: 8px;
+  padding: 25px;
+  overflow: hidden;
+}
+
+
+.programBlockBG {
+  position: absolute;
+  box-sizing: border-box;
+  width: 120%;
+  height: 100%;
+  background-color: var(--darkGrayColor);
+  border-radius: 20px;
+  transform: rotate(10deg) translate(-20%, -45%);
+  z-index: -1;
+}
+
+
+
+.programBlock svg {
+  stroke: var(--greenColor);
+  height: 90px;
+  grid-column: 1 / -1;
+  grid-row: 1 / 2;
+  align-self: center;
+  justify-self: center;
+  margin: 0 auto 80px auto;
+}
+
+
+.leftSpace {
+  left: 10px;
+}
+
+.programBlock span {
+  font-size: 30px;
+  font-weight: 200;
+  text-align: center;
+  flex-grow: 1;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*/////////////////////////// /////////////////////////// ///////////// quando /////////////////*/
+
+.quando {
+  margin-top: 150px;
+}
+
+
+.quando h1 {
+  text-align: center;
+  font-size: 30px;
+  color: #fff;
+  margin-bottom: 40px;
+}
+
+.quandoWrapper {
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-items: center;
+  width: 80%;
+  max-width: 1500px;
+  margin: 0 auto;
+  padding: 30px;
+  border-radius: 10px;
+  border: 1px solid var(--greenColor);
+}
+
+.quandoWrapper span {
+  font-size: 25px;
+  margin-bottom: 30px;
+  font-weight: 200;
+}
+
+
+.daysWrapper {
+  grid-template-columns: 1fr 1.5fr 1fr;
+  width: 100%;
+  max-width: 1200px;
+  border: 1px solid var(--darkGrayColor);
+  padding: 15px;
+  border-radius: 7px;
+  margin: 10px auto;
+}
+
+.daysColumn {
+  flex-direction: row;
+  align-items: center;
+}
+
+.daysColumn svg {
+  stroke: var(--greenColor);
+  width: 30px;
+  height: 30px;
+}
+
+.daysColumn span {
+  font-size: 18px;
+  margin: 0;
+  margin-left: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*/////////////////////////// /////////////////////////// ///////////// onde /////////////////*/
+
+
+
+.onde {
+  grid-template-columns: 2fr 1.3fr;
+  grid-gap: 30px;
+  margin: 20px;
+}
+
+
+.onde span {
+  text-align: center;
+  grid-column: 1 / -1;
+  margin: 50px auto;
+  text-align: center;
+  font-size: 30px;
+  color: #fff;
+
+}
+
+.endereco {
+  order: 2;
+  justify-self: center;
+  align-self: center;
+}
+
+.endereco span {
+  font-size: 20px;
+  line-height: 1.5;
+  color: var(--greenColor);
+  text-align: center;
+}
+
+.onde amp-img {
+  order: 3;
+  border-radius: 10px;
+}
+
+.onde amp-iframe {
+  border-radius: 10px;
+  order: 4;
+  grid-column: 1 / -1;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*/////////////////////////// /////////////////////////// ///////////// premios /////////////////*/
+.premios {
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+  justify-content: center;
+  background-color: var(--darkGrayColor);
+  padding: 50px;
+  margin-top: 100px;
+}
+
+
+.premios h1 {
+  grid-column: 1 / -1;
+  text-align: center;
+  font-size: 50px;
+  max-width: 800px;
+  margin: 0 auto;
+  font-weight: 500;
+}
+
+
+.premios h2 {
+  grid-column: 1 / -1;
+  text-align: center;
+  font-size: 25px;
+  max-width: 800px;
+  margin: 40px auto;
+  font-weight: 200;
+}
+
+.premios amp-img {
+  width: 80%;
+  margin: 0 auto;
+  max-width: 400px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*/////////////////////////// /////////////////////////// ///////////// videos /////////////////*/
+
+
+.videos {
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  grid-gap: 40px;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+
+.videos h1 {
+  grid-column: 1 / -1;
+  text-align: center;
+  font-size: 30px;
+  margin-bottom: 40px;
+}
+
+
+.video {
+  background-color: transparent;
+  border: 1px solid var(--greenColor);
+  overflow: hidden;
+  grid-template-columns: 1fr 1fr;
+  width: 100%;
+  height: 150px;
+  justify-content: stretch;
+  align-items: stretch;
+  padding: 20px;
+  border-radius: 10px;
+  transition: 0.3s ease all;
+  cursor: pointer;
+}
+
+
+.videoBG {
+  position: absolute;
+  z-index: -1;
+  width: 300px;
+  height: 200%;
+  border-radius: 10px;
+    transform: rotate(10deg) translate(-65px, -226px);
+  background-color: var(--darkGrayColor);
+}
+
+
+.video span {
+  font-size: 20px;
+  font-weight: 300;
+  color: var(--greenColor);
+  transition: 0.3s ease all;
+  grid-column: 1 / -1;
+  text-align: center;
+}
+
+a:hover {
+  background-color: var(--greenColor);
+  transform: scale(0.98);
+  box-shadow: 0 0 10px 0 rgba(0,0,0,0.1);
+}
+
+.video:hover span {
+  color: var(--darkGrayColor);
+}
+
+
+.video svg {
+  width: 60px;
+  height: 60px;
+  margin: 0 auto;
+  grid-column: 2 / 3;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*/////////////////////////// /////////////////////////// ///////////// footer /////////////////*/
+
+
+.footer {
+  background-color: var(--darkGrayColor);
+  margin-top: 100px;
+  padding: 50px;
+}
+
+
+.certificado {
+  grid-template-columns: 3fr 1fr;
+  background: radial-gradient(ellipse farthest-corner at right bottom, #FEDB37 0%, #FDB931 8%, #9f7928 30%, #8A6E2F 40%, transparent 80%), radial-gradient(ellipse farthest-corner at left top, #FFFFFF 0%, #FFFFAC 8%, #D1B464 25%, #5d4a1f 62.5%, #5d4a1f 100%);
+  z-index: 1;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+
+.certificado::before {
+  position: absolute;
+  right: 7px;
+  left: 7px;
+  top: 7px;
+  bottom: 7px;
+  background-color: var(--darkGrayColor);
+  z-index: 2;
+  content: "";
+}
+
+.certificado span {
+  z-index: 4;
+  justify-self: center;
+  align-self: center;
+  color: #fff;
+  font-size: 25px;
+  text-align: center;
+  padding: 0 60px 0 40px;
+}
+
+
+.certificado amp-img {
+  z-index: 3;
+  right: 30px;
+  top: 30px;
+}
+
+
+.footer h2 {
+  font-size: 20px;
+  text-align: center;
+  margin: 0 auto;
+  max-width: 700px;
+  margin-top: 60px;
+}
+
+
+
+.warning {
+  grid-template-columns: 40px 1fr 40px;
+  margin: 0 auto;
+  max-width: 1000px;
+  align-items: center;
+  grid-auto-flow: column;
+  margin-top: 60px;
+}
+
+
+.warning svg {
+  grid-row: 1 / 2;
+  width: 40px;
+  height: 40px;
+}
+
+.warning h3 {
+  color: #ffcb05;
+  border: 1px solid #ffcb05;
+  border-radius: 8px;
+  grid-row: 1 / 2;
+  padding: 20px;
+  margin: 0 auto;
+  width: 95%;
+  text-align: center;
+  font-size: 20px;
+}
+
+
+.footer p {
+  text-align: center;
+  color: #fff;
+  margin-top: 50px;
+}
+
+
+
+
+@media (min-width: 740px) and (max-width: 1024px) {
+
+  .headerContainer {
+    height: 85%;
+  }
+
+  .heroTexts amp-img {
+    width: 50%;
+    transition: 0.3s ease-out all;
+    margin-top: 40px;
+  }
+
+  .heroText {
+    font-size: 20px;
+  }
+
+  button span, a span {
+    font-size: 20px;  
+  }
+
+  .programBlock span {
+      font-size: 20px;
+  }
+
+  .onde {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  
+  .programBlocks {
+    padding: 0 40px;
+  }
+
+  .programBlocksHeader span {
+      font-size: 60px;
+      font-weight: 100;
+      flex-grow: 1;
+  }
+
+  .quandoWrapper {
+      width: 95%;
+      max-width: 1500px;
+      padding: 10px;
+  }
+
+}
+
+
+
+
+
+
+
+
+@media (min-width: 320px) and (max-width: 739px) {
+  .headerContainer {
+    height: 85%;
+  }
+
+  .heroTexts amp-img {
+    width: 86%;
+    transition: 0.3s ease-out all;
+    margin-top: 40px;
+  }
+
+  .heroTexts h1 {
+      font-size: 50px;
+  }
+
+  .heroTexts h2 {
+      font-size: 30px;
+  }
+
+  .heroText {
+    font-size: 20px;
+    width: 90%;
+  }
+
+  button span, a span {
+    font-size: 20px;  
+  }
+
+  .programBlocksHeader {
+      flex-direction: row;
+      align-items: center;
+      justify-content: center;
+      flex-wrap: nowrap;
+      margin: 0 auto;
+      grid-column: 1 / -1;
+  }
+
+  .programBlocks {
+    padding: 0 10px;
+  }
+
+  .programBlocksHeader span {
+      font-size: 40px;
+      font-weight: 100;
+      flex-grow: 1;
+      text-align: center;
+  }
+
+  .programBlock span {
+      font-size: 20px;
+  }
+
+  .quandoWrapper {
+      width: 95%;
+      max-width: 1500px;
+      padding: 10px;
+  }
+
+
+  .daysWrapper {
+    grid-template-columns: 1fr;
+    grid-gap: 20px;
+  }
+
+  .videos {
+    padding: 0 10px;
+  }
+
+  .videos h1 {
+      margin-bottom: 20px;
+  }
+
+  .onde {
+      grid-template-columns: 1fr;
+      grid-gap: 30px;
+      margin: 20px;
+  }
+
+  .onde amp-iframe {
+    height: 400px;
+  }
+
+  .onde span {
+      margin: 10px auto;
+  }
+
+  .premios {
+    padding: 10px;
+  }
+
+  .premios h1 {
+      font-size: 30px;
+  }
+
+  .premios amp-img {
+      width: 95%;
+  }
+
+  .videos h1 {
+      font-size: 25px;
+  }
+
+  .videos {
+    padding: 0;
+  }
+
+  .video {
+      width: 300px;
+  }
+
+  .certificado {
+      grid-template-columns: 1fr;
+  }
+
+
+  .certificado span {
+      padding: 20px;
+  }
+
+  .certificado amp-img {
+      z-index: 3;
+      right: 0px;
+      top: 30px;
+      width: 80%;
+      margin: 0 auto;
+  }
+
+  .footer {
+      padding: 20px;
+      overflow: hidden;
+  }
+
+}
+    </style>
+
+
+
+
+
+
+
+
+    <style amp-boilerplate>body{-webkit-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-moz-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-ms-animation:-amp-start 8s steps(1,end) 0s 1 normal both;animation:-amp-start 8s steps(1,end) 0s 1 normal both}@-webkit-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-moz-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-ms-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-o-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}</style><noscript><style amp-boilerplate>body{-webkit-animation:none;-moz-animation:none;-ms-animation:none;animation:none}</style></noscript>
+
+
+    <script async src="https://cdn.ampproject.org/v0.js"></script>
+    <script async custom-element="amp-iframe" src="https://cdn.ampproject.org/v0/amp-iframe-0.1.js"></script>
+    <script async custom-element="amp-bind" src="https://cdn.ampproject.org/v0/amp-bind-0.1.js"></script>
+    <script async custom-element="amp-fx-collection" src="https://cdn.ampproject.org/v0/amp-fx-collection-0.1.js"></script>
+
+
+
+    <link href="https://fonts.googleapis.com/css?family=Kanit:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&display=swap" rel="stylesheet">
+
+<!--     <link rel="stylesheet" type="text/css" href="eLearningLP.css">
+    <link rel="stylesheet" type="text/css" href="mediaQueries.css"> -->
+
+    <link rel="apple-touch-icon" sizes="57x57" href="img/favicon/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="img/favicon/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="img/favicon/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="img/favicon/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="img/favicon/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="img/favicon/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="img/favicon/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="img/favicon/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="img/favicon/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="512x512"  href="img/favicon/favicon-512x512.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="img/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="img/favicon/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="img/favicon/favicon-16x16.png">
+    <link rel="manifest" href="img/favicon/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="favicon/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+    <link rel="shortcut icon" href="img/favicon/favicon.ico" type="image/x-icon"/>
+
+
+  </head>
+
+
+
+  <body>
+
+
+<div class="container boxModelFlex">
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <div class="headerContainer boxModel">
+    <div class="roundRectangle"></div>
+    <div class="roundRectangleLine"></div>
+    <div class="roundRectanglePhoto"></div>
+    <div class="roundRectanglePhotoLine"></div>
+    <div class="heroTexts boxModelFlex">
+      <h1 amp-fx="fade-in fly-in-bottom" data-duration="500ms" data-fly-in-distance="20%" data-easing="ease-out" class="boxModel">Treinamento</h1>
+      <h2 amp-fx="fade-in fly-in-bottom" data-duration="700ms" data-fly-in-distance="20%" data-easing="ease-out" class="boxModel">I'Max em São Paulo Capital</h2>
+      <amp-img amp-fx="fade-in fly-in-bottom" data-duration="1000ms" data-fly-in-distance="20%" data-easing="ease-out" alt="" src="img/logo1.png" width="2000" height="1357" layout="responsive"></amp-img>
+    </div>
+  </div>
+
+  <span amp-fx="fade-in fly-in-bottom" data-duration="500ms" data-fly-in-distance="80%" data-easing="ease-out" class="heroText boxModel">Venha conhecer o novo! Participe da série de treinamentos gratuitos do novo sistema I'Max. Conheça todos os potenciais da mais nova ferramenta para a indústria do PR. Com recursos novos e antigas ferramentas remodeladas, o I'Max foi pensado para facilitar a vida dos atendimentos. Tire todas as suas dúvidas e aprenda como a tecnologia vai revolucionar a sua vida na agência.</span>
+
+</div>
+
+
+
+
+
+
+
+
+<div class="ctaWrapper boxModelFlex">
+
+  <a amp-fx="fade-in fly-in-bottom" data-duration="500ms" data-fly-in-distance="70%" data-easing="ease-out" class="ctaBtn1 boxModelFlex" href="https://docs.google.com/forms/d/e/1FAIpQLScDcFbla60Tfwd-XtfQq3qtr_eyObPFcIwLByAwjO0IHG63ZA/viewform" target="_blank">
+    <span>QUERO PARTICIPAR DO TREINAMENTO</span>
+    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 51.8 51.8"xml:space="preserve"> <path d="M0,25.9c0,14.3,11.6,25.9,25.9,25.9s25.9-11.6,25.9-25.9S40.2,0,25.9,0S0,11.6,0,25.9z M25.9,3.3 c12.4,0,22.6,10,22.6,22.6c0,12.4-10,22.6-22.6,22.6c-12.4,0-22.6-10-22.6-22.6C3.3,13.5,13.4,3.3,25.9,3.3z M27.2,13l12,12 c0.5,0.5,0.5,1.3,0,1.8l-12,12c-0.5,0.5-1.3,0.5-1.8,0l-0.7-0.7c-0.5-0.5-0.5-1.3,0-1.8l8.9-8.6H13.8c-0.7,0-1.3-0.6-1.3-1.3v-1 c0-0.7,0.6-1.3,1.3-1.3h19.9l-8.9-8.6c-0.5-0.5-0.5-1.3,0-1.8l0.7-0.7C25.9,12.5,26.7,12.5,27.2,13L27.2,13z"/> </svg>
+  </a>
+
+
+</div>
+
+
+
+
+
+
+
+
+<div class="programBlocks boxModelGrid">
+  <div amp-fx="fade-in fly-in-bottom" data-duration="500ms" data-fly-in-distance="50%" data-easing="ease-out" class="programBlocksHeader boxModelFlex">
+    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 174.2 128.6"xml:space="preserve"><polyline fill="none" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" points="160.5,41.7 172.7,37.5 172.7,26 87.1,1.5 1.5,26 1.5,37.5 87.1,65.5 147.8,45.7"/><path fill="none" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="M39.7,64.5v19.4c10.7,10.2,27.7,16.8,46.4,16.8c18.6,0,35.6-6.5,46.4-16.8v-32"/><polyline fill="none" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" points="148.6,87.9 148.6,37.1 91.3,21.7"/><circle fill="none" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" cx="148.6" cy="97.6" r="9.3"/><polyline fill="none" stroke-width="3" stroke-linejoin="round" stroke-miterlimit="10" points="144.4,106.2 139.3,127.1 157.9,127.1 152.8,106.2"/></svg>
+    <span class="boxModel">VOCÊ VAI APRENDER</span>
+  </div>
+  <div amp-fx="fade-in fly-in-bottom" data-duration="500ms" data-fly-in-distance="50%" data-easing="ease-out" class="programBlock boxModelGrid">
+    <div class="programBlockBG"></div>
+    <svg class="boxModel leftSpace" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 108.4 102"xml:space="preserve"> <polyline fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" points="12.4,43.1 17.7,47.4 25.5,37.5       "/> <line fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="34" y1="44.6" x2="62.1" y2="44.6"/> <polyline fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" points="12.4,61.6 17.7,65.8 25.5,56       "/> <line fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="34" y1="63.1" x2="48.9" y2="63.1"/> <polyline fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" points="12.4,80.1 17.7,84.3 25.5,74.4       "/> <line fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="34" y1="81.6" x2="44.5" y2="81.6"/> <path fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="M76,30.3V7.9C76,4.1,72.9,1,69.1,1H20.3L1,17.8v76.3c0,3.8,3.1,6.9,6.9,6.9h61.2c3.8,0,6.9-3.1,6.9-6.9V83.4"/> <polyline fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" points="26.6,2.3 26.6,23.6 13.6,23.6    "/> <path fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="M76.3,74.5l-22.8,6.9l7.9-22.9L91,28.9c1.6-1.6,4.8-1.1,7.1,1.1l7.3,7.3c2.3,2.3,2.8,5.4,1.1,7.1L76.3,74.5z"/> <line fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="76.2" y1="71.7" x2="63.4" y2="59"/> <line fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="60.5" y1="78.9" x2="56.3" y2="74.7"/> <line fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="70.3" y1="65.5" x2="87" y2="48.8"/> <line fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="85" y1="35.6" x2="99.8" y2="50.4"/> </svg>
+    <span>Montar Mailings</span>
+  </div>
+  <div amp-fx="fade-in fly-in-bottom" data-duration="600ms" data-fly-in-distance="50%" data-easing="ease-out" class="programBlock boxModelGrid">
+    <div class="programBlockBG"></div>
+    <svg class="boxModel svgSize1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 81.8 102"xml:space="preserve"> <polyline fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" points="26.4,1.6 26.4,20.2 15.6,20.2      "/> <line fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="25.6" y1="46.6" x2="56.3" y2="46.6"/> <line fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="25.6" y1="35.1" x2="56.3" y2="35.1"/> <path fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="M40.9,40.1"/> <path fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="M40.9,62.8"/> <path fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="M68,89.1c0,0-23.6-18.3-24.7-19.2c-1-0.9-3.1-0.8-4.4,0.1c-1.5,1.2-25.1,19-25.1,19"/> <line fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="47" y1="72.2" x2="80.6" y2="45.5"/> <path fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="M74.8,49.8V6c0-2.8-2.3-5-5-5H22.1L7,14.5v24.7"/> <path fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="M35,72.2l-34-27v51.3C1,99,3.1,101,5.6,101h70.7c2.5,0,4.6-2,4.6-4.5V45.2H75"/></svg>
+    <span>Editar Releases</span>
+  </div>
+  <div amp-fx="fade-in fly-in-bottom" data-duration="700ms" data-fly-in-distance="50%" data-easing="ease-out" class="programBlock boxModelGrid">
+    <div class="programBlockBG"></div>
+    <svg class="boxModel" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 87.1 102"xml:space="preserve"> <path fill="none" stroke="#4BE3AC" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="M71.7,42.7V7.8c0-3.8-3.1-6.8-6.8-6.8H20.1L1,17.6v68.6C1,89.9,4.1,93,7.8,93h41.9"/> <polyline fill="none" stroke="#4BE3AC" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" points="23.2,2.3 23.2,23.4 10.6,23.4    "/> <path fill="none" stroke="#4BE3AC" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="M49.7,75l-10.5,0c-1.3,0-1.9-1-2.2-1.6c-0.5-1.3-0.3-2.9,0.4-3.7l21.3-21.3c1.5-1.5,3.9-1.5,5.4,0l21.2,21.3 c0.8,0.8,1.1,2.4,0.6,3.6c-0.4,1.1-1.4,1.6-2.6,1.6l-11.7,0l0,26"/> </svg>
+    <span>Upload direto do Word</span>
+  </div>
+  <div amp-fx="fade-in fly-in-bottom" data-duration="800ms" data-fly-in-distance="50%" data-easing="ease-out" class="programBlock boxModelGrid">
+    <div class="programBlockBG"></div>
+    <svg class="boxModel" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 102.3 102"xml:space="preserve"><path fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="M23.7,68.6V55.5c0-7.2,5.2-9.9,11.9-9.9l8.3,9.1l7.7-9.1c6.7,0,12.5,2.7,12.5,9.9v13.1"/><path fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="M53.8,28c0,5.5-4.4,10-9.8,10c-5.4,0-9.8-4.5-9.8-10v-3.7c0-5.5,4.4-10,9.8-10c5.4,0,9.8,4.5,9.8,10V28z"/><path fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="M74.3,13.6C91,30.3,91,57.5,74.3,74.3C57.5,91,30.3,91,13.6,74.3c-16.8-16.8-16.8-43.9,0-60.7C30.3-3.2,57.5-3.2,74.3,13.6z"/> <path fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="M78.2,69.6l21.5,21.5c2.1,2.1,2,5.7-0.3,8c-2.3,2.3-5.9,2.4-8,0.3L76,84.1"/></svg>
+    <span>Buscar Contatos</span>
+  </div>
+  <div amp-fx="fade-in fly-in-bottom" data-duration="900ms" data-fly-in-distance="50%" data-easing="ease-out" class="programBlock boxModelGrid">
+    <div class="programBlockBG"></div>
+    <svg class="boxModel" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 119.6 102"xml:space="preserve"><line fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="14.5" y1="89.7" x2="14.5" y2="70.2"/> <line fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="27.9" y1="89.7" x2="27.9" y2="57.7"/> <line fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="41.3" y1="89.7" x2="41.3" y2="45.3"/> <line fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="54.7" y1="89.7" x2="54.7" y2="43.5"/> <line fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="68.1" y1="89.7" x2="68.1" y2="51.1"/> <line fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="81.5" y1="89.7" x2="81.5" y2="50.2"/> <line fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="94.9" y1="89.7" x2="94.9" y2="38.1"/> <line fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="108.3" y1="89.7" x2="108.3" y2="36"/> <polyline fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" points="10.5,61.4 46.2,25.6 74.3,43.1 108.6,9.9   "/> <polyline fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" points="108.6,27 108.6,9.9 91.5,9.9   "/> <polyline fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" points="118.6,101 1,101 1,1   "/></svg>
+    <span>Relatório de Produtividade</span>
+  </div>
+
+
+
+  <amp-img amp-fx="fade-in fly-in-bottom" data-duration="500ms" data-fly-in-distance="50%" data-easing="ease-out" alt="" src="img/plus.png" width="1200" height="111" layout="responsive"></amp-img>
+
+
+
+
+  <span amp-fx="fade-in fly-in-bottom" data-duration="500ms" data-fly-in-distance="50%" data-easing="ease-out" class="heroText boxModel">É imprescindível a participação dos usuários I'M Press e Maxpress, uma vez as antigas ferramentas deixarão de ser disponibilizadas em 30/08. Não perca essa oportunidade!</span>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="quando boxModel">
+  <h1 amp-fx="fade-in fly-in-bottom" data-duration="500ms" data-fly-in-distance="50%" data-easing="ease-out" >Quando</h1>
+  <div amp-fx="fade-in fly-in-bottom" data-duration="600ms" data-fly-in-distance="50%" data-easing="ease-out" class="quandoWrapper boxModelFlex">
+    <span amp-fx="fade-in fly-in-bottom" data-duration="700ms" data-fly-in-distance="50%" data-easing="ease-out" >Dias e horários dos treinamentos:</span>
+    <div amp-fx="fade-in fly-in-bottom" data-duration="800ms" data-fly-in-distance="50%" data-easing="ease-out" class="daysWrapper boxModelGrid">
+      <div class="daysColumn boxModelFlex">
+        <svg class="boxModel" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 56.5 56.5"xml:space="preserve"> <polyline fill="none" stroke="#4BE3AC" stroke-miterlimit="10" points="16.1,26.7 26.8,37.7 39.6,20   "/> <path fill="none" stroke="#4BE3AC" stroke-miterlimit="10" d="M56,28.3C56,43.6,43.6,56,28.3,56C12.9,56,0.5,43.6,0.5,28.3 c0-15.3,12.4-27.8,27.8-27.8C43.6,0.5,56,12.9,56,28.3z"/> <path fill="none" stroke="#4BE3AC" stroke-miterlimit="10" d="M28.3,7.4c11.5,0,20.8,9.3,20.8,20.8s-9.3,20.8-20.8,20.8 c-11.5,0-20.8-9.3-20.8-20.8c0-6.7,3.1-12.6,8-16.4"/> </svg>
+        <span>Dia 1</span>
+      </div>
+      <div class="daysColumn boxModelFlex">
+        <svg class="boxModel"xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 53 53.2"xml:space="preserve"> <path fill="none" stroke-miterlimit="10" d="M43.9,5.4h5.5c1.7,0,3,1.4,3,3v41.3c0,1.7-1.3,3-3,3h-46 c-1.6,0-3-1.3-3-3V8.4c0-1.6,1.4-3,3-3h8.3"/> <line fill="none" stroke-miterlimit="10" x1="30.8" y1="5.4" x2="38" y2="5.4"/> <line fill="none" stroke-miterlimit="10" x1="17.7" y1="5.4" x2="24.9" y2="5.4"/> <line fill="none" stroke-miterlimit="10" x1="0.6" y1="19.6" x2="52.4" y2="19.6"/> <line fill="none" stroke-miterlimit="10" x1="12" y1="0" x2="12" y2="11.6"/> <line fill="none" stroke-miterlimit="10" x1="38.2" y1="0" x2="38.2" y2="11.6"/> <line fill="none" stroke-miterlimit="10" x1="25.1" y1="0" x2="25.1" y2="11.6"/> <rect x="18.1" y="35.5" fill="none" stroke-miterlimit="10" width="0.9" height="0.9"/> <rect x="10.1" y="35.5" fill="none" stroke-miterlimit="10" width="0.9" height="0.9"/> <rect x="26.1" y="35.5" fill="none" stroke-miterlimit="10" width="0.9" height="0.9"/> <rect x="34" y="35.5" fill="none" stroke-miterlimit="10" width="0.9" height="0.9"/> <rect x="42" y="35.5" fill="none" stroke-miterlimit="10" width="0.9" height="0.9"/> <rect x="18.1" y="27.5" fill="none" stroke-miterlimit="10" width="0.9" height="0.9"/> <rect x="26.1" y="27.5" fill="none" stroke-miterlimit="10" width="0.9" height="0.9"/> <rect x="34" y="27.5" fill="none" stroke-miterlimit="10" width="0.9" height="0.9"/> <rect x="42" y="27.5" fill="none" stroke-miterlimit="10" width="0.9" height="0.9"/> <rect x="18.1" y="43.5" fill="none" stroke-miterlimit="10" width="0.9" height="0.9"/> <rect x="10.1" y="43.5" fill="none" stroke-miterlimit="10" width="0.9" height="0.9"/> <rect x="26.1" y="43.5" fill="none" stroke-miterlimit="10" width="0.9" height="0.9"/> <rect x="34" y="43.5" fill="none" stroke-miterlimit="10" width="0.9" height="0.9"/> </svg>
+        <span>04/07/2019 (quinta)</span>
+      </div>
+      <div class="daysColumn boxModelFlex">
+        <svg class="boxModel"xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 56.4 56.3"xml:space="preserve"> <line fill="none" stroke-miterlimit="10" x1="28.2" y1="1.3" x2="28.2" y2="8.2"/> <line fill="none" stroke-miterlimit="10" x1="28.2" y1="48.2" x2="28.2" y2="55"/> <line fill="none" stroke-miterlimit="10" x1="54.9" y1="28.2" x2="48" y2="28.2"/> <line fill="none" stroke-miterlimit="10" x1="8" y1="28.2" x2="1.2" y2="28.2"/> <path fill="none" stroke-miterlimit="10" d="M55.9,28.2c0,15.3-12.4,27.7-27.7,27.7c-15.3,0-27.7-12.4-27.7-27.7 c0-15.3,12.4-27.7,27.7-27.7C43.5,0.5,55.9,12.9,55.9,28.2z"/> <polyline fill="none" stroke-miterlimit="10" points="42.5,16.5 28.2,30.8 18.9,22   "/> </svg>
+        <span>Horário: 10h às 12h (manhã)</span>
+      </div>
+    </div>
+    <div amp-fx="fade-in fly-in-bottom" data-duration="820ms" data-fly-in-distance="50%" data-easing="ease-out" class="daysWrapper boxModelGrid">
+      <div class="daysColumn boxModelFlex">
+        <svg class="boxModel" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 56.5 56.5"xml:space="preserve"> <polyline fill="none" stroke="#4BE3AC" stroke-miterlimit="10" points="16.1,26.7 26.8,37.7 39.6,20   "/> <path fill="none" stroke="#4BE3AC" stroke-miterlimit="10" d="M56,28.3C56,43.6,43.6,56,28.3,56C12.9,56,0.5,43.6,0.5,28.3 c0-15.3,12.4-27.8,27.8-27.8C43.6,0.5,56,12.9,56,28.3z"/> <path fill="none" stroke="#4BE3AC" stroke-miterlimit="10" d="M28.3,7.4c11.5,0,20.8,9.3,20.8,20.8s-9.3,20.8-20.8,20.8 c-11.5,0-20.8-9.3-20.8-20.8c0-6.7,3.1-12.6,8-16.4"/> </svg>
+        <span>Dia 2</span>
+      </div>
+      <div class="daysColumn boxModelFlex">
+        <svg class="boxModel"xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 53 53.2"xml:space="preserve"> <path fill="none" stroke-miterlimit="10" d="M43.9,5.4h5.5c1.7,0,3,1.4,3,3v41.3c0,1.7-1.3,3-3,3h-46 c-1.6,0-3-1.3-3-3V8.4c0-1.6,1.4-3,3-3h8.3"/> <line fill="none" stroke-miterlimit="10" x1="30.8" y1="5.4" x2="38" y2="5.4"/> <line fill="none" stroke-miterlimit="10" x1="17.7" y1="5.4" x2="24.9" y2="5.4"/> <line fill="none" stroke-miterlimit="10" x1="0.6" y1="19.6" x2="52.4" y2="19.6"/> <line fill="none" stroke-miterlimit="10" x1="12" y1="0" x2="12" y2="11.6"/> <line fill="none" stroke-miterlimit="10" x1="38.2" y1="0" x2="38.2" y2="11.6"/> <line fill="none" stroke-miterlimit="10" x1="25.1" y1="0" x2="25.1" y2="11.6"/> <rect x="18.1" y="35.5" fill="none" stroke-miterlimit="10" width="0.9" height="0.9"/> <rect x="10.1" y="35.5" fill="none" stroke-miterlimit="10" width="0.9" height="0.9"/> <rect x="26.1" y="35.5" fill="none" stroke-miterlimit="10" width="0.9" height="0.9"/> <rect x="34" y="35.5" fill="none" stroke-miterlimit="10" width="0.9" height="0.9"/> <rect x="42" y="35.5" fill="none" stroke-miterlimit="10" width="0.9" height="0.9"/> <rect x="18.1" y="27.5" fill="none" stroke-miterlimit="10" width="0.9" height="0.9"/> <rect x="26.1" y="27.5" fill="none" stroke-miterlimit="10" width="0.9" height="0.9"/> <rect x="34" y="27.5" fill="none" stroke-miterlimit="10" width="0.9" height="0.9"/> <rect x="42" y="27.5" fill="none" stroke-miterlimit="10" width="0.9" height="0.9"/> <rect x="18.1" y="43.5" fill="none" stroke-miterlimit="10" width="0.9" height="0.9"/> <rect x="10.1" y="43.5" fill="none" stroke-miterlimit="10" width="0.9" height="0.9"/> <rect x="26.1" y="43.5" fill="none" stroke-miterlimit="10" width="0.9" height="0.9"/> <rect x="34" y="43.5" fill="none" stroke-miterlimit="10" width="0.9" height="0.9"/> </svg>
+        <span>05/07/2019 (sexta)</span>
+      </div>
+      <div class="daysColumn boxModelFlex">
+        <svg class="boxModel"xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 56.4 56.3"xml:space="preserve"> <line fill="none" stroke-miterlimit="10" x1="28.2" y1="1.3" x2="28.2" y2="8.2"/> <line fill="none" stroke-miterlimit="10" x1="28.2" y1="48.2" x2="28.2" y2="55"/> <line fill="none" stroke-miterlimit="10" x1="54.9" y1="28.2" x2="48" y2="28.2"/> <line fill="none" stroke-miterlimit="10" x1="8" y1="28.2" x2="1.2" y2="28.2"/> <path fill="none" stroke-miterlimit="10" d="M55.9,28.2c0,15.3-12.4,27.7-27.7,27.7c-15.3,0-27.7-12.4-27.7-27.7 c0-15.3,12.4-27.7,27.7-27.7C43.5,0.5,55.9,12.9,55.9,28.2z"/> <polyline fill="none" stroke-miterlimit="10" points="42.5,16.5 28.2,30.8 18.9,22   "/> </svg>
+        <span>Horário: 14h às 16h (tarde)</span>
+      </div>
+    </div>
+    <div amp-fx="fade-in fly-in-bottom" data-duration="840ms" data-fly-in-distance="50%" data-easing="ease-out" class="daysWrapper boxModelGrid">
+      <div class="daysColumn boxModelFlex">
+        <svg class="boxModel" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 56.5 56.5"xml:space="preserve"> <polyline fill="none" stroke="#4BE3AC" stroke-miterlimit="10" points="16.1,26.7 26.8,37.7 39.6,20   "/> <path fill="none" stroke="#4BE3AC" stroke-miterlimit="10" d="M56,28.3C56,43.6,43.6,56,28.3,56C12.9,56,0.5,43.6,0.5,28.3 c0-15.3,12.4-27.8,27.8-27.8C43.6,0.5,56,12.9,56,28.3z"/> <path fill="none" stroke="#4BE3AC" stroke-miterlimit="10" d="M28.3,7.4c11.5,0,20.8,9.3,20.8,20.8s-9.3,20.8-20.8,20.8 c-11.5,0-20.8-9.3-20.8-20.8c0-6.7,3.1-12.6,8-16.4"/> </svg>
+        <span>Dia 3</span>
+      </div>
+      <div class="daysColumn boxModelFlex">
+        <svg class="boxModel"xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 53 53.2"xml:space="preserve"> <path fill="none" stroke-miterlimit="10" d="M43.9,5.4h5.5c1.7,0,3,1.4,3,3v41.3c0,1.7-1.3,3-3,3h-46 c-1.6,0-3-1.3-3-3V8.4c0-1.6,1.4-3,3-3h8.3"/> <line fill="none" stroke-miterlimit="10" x1="30.8" y1="5.4" x2="38" y2="5.4"/> <line fill="none" stroke-miterlimit="10" x1="17.7" y1="5.4" x2="24.9" y2="5.4"/> <line fill="none" stroke-miterlimit="10" x1="0.6" y1="19.6" x2="52.4" y2="19.6"/> <line fill="none" stroke-miterlimit="10" x1="12" y1="0" x2="12" y2="11.6"/> <line fill="none" stroke-miterlimit="10" x1="38.2" y1="0" x2="38.2" y2="11.6"/> <line fill="none" stroke-miterlimit="10" x1="25.1" y1="0" x2="25.1" y2="11.6"/> <rect x="18.1" y="35.5" fill="none" stroke-miterlimit="10" width="0.9" height="0.9"/> <rect x="10.1" y="35.5" fill="none" stroke-miterlimit="10" width="0.9" height="0.9"/> <rect x="26.1" y="35.5" fill="none" stroke-miterlimit="10" width="0.9" height="0.9"/> <rect x="34" y="35.5" fill="none" stroke-miterlimit="10" width="0.9" height="0.9"/> <rect x="42" y="35.5" fill="none" stroke-miterlimit="10" width="0.9" height="0.9"/> <rect x="18.1" y="27.5" fill="none" stroke-miterlimit="10" width="0.9" height="0.9"/> <rect x="26.1" y="27.5" fill="none" stroke-miterlimit="10" width="0.9" height="0.9"/> <rect x="34" y="27.5" fill="none" stroke-miterlimit="10" width="0.9" height="0.9"/> <rect x="42" y="27.5" fill="none" stroke-miterlimit="10" width="0.9" height="0.9"/> <rect x="18.1" y="43.5" fill="none" stroke-miterlimit="10" width="0.9" height="0.9"/> <rect x="10.1" y="43.5" fill="none" stroke-miterlimit="10" width="0.9" height="0.9"/> <rect x="26.1" y="43.5" fill="none" stroke-miterlimit="10" width="0.9" height="0.9"/> <rect x="34" y="43.5" fill="none" stroke-miterlimit="10" width="0.9" height="0.9"/> </svg>
+        <span>11/07/2019 (quinta)</span>
+      </div>
+      <div class="daysColumn boxModelFlex">
+        <svg class="boxModel"xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 56.4 56.3"xml:space="preserve"> <line fill="none" stroke-miterlimit="10" x1="28.2" y1="1.3" x2="28.2" y2="8.2"/> <line fill="none" stroke-miterlimit="10" x1="28.2" y1="48.2" x2="28.2" y2="55"/> <line fill="none" stroke-miterlimit="10" x1="54.9" y1="28.2" x2="48" y2="28.2"/> <line fill="none" stroke-miterlimit="10" x1="8" y1="28.2" x2="1.2" y2="28.2"/> <path fill="none" stroke-miterlimit="10" d="M55.9,28.2c0,15.3-12.4,27.7-27.7,27.7c-15.3,0-27.7-12.4-27.7-27.7 c0-15.3,12.4-27.7,27.7-27.7C43.5,0.5,55.9,12.9,55.9,28.2z"/> <polyline fill="none" stroke-miterlimit="10" points="42.5,16.5 28.2,30.8 18.9,22   "/> </svg>
+        <span>Horário: 10h às 12h (manhã)</span>
+      </div>
+    </div>
+    <div amp-fx="fade-in fly-in-bottom" data-duration="860ms" data-fly-in-distance="50%" data-easing="ease-out" class="daysWrapper boxModelGrid">
+      <div class="daysColumn boxModelFlex">
+        <svg class="boxModel" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 56.5 56.5"xml:space="preserve"> <polyline fill="none" stroke="#4BE3AC" stroke-miterlimit="10" points="16.1,26.7 26.8,37.7 39.6,20   "/> <path fill="none" stroke="#4BE3AC" stroke-miterlimit="10" d="M56,28.3C56,43.6,43.6,56,28.3,56C12.9,56,0.5,43.6,0.5,28.3 c0-15.3,12.4-27.8,27.8-27.8C43.6,0.5,56,12.9,56,28.3z"/> <path fill="none" stroke="#4BE3AC" stroke-miterlimit="10" d="M28.3,7.4c11.5,0,20.8,9.3,20.8,20.8s-9.3,20.8-20.8,20.8 c-11.5,0-20.8-9.3-20.8-20.8c0-6.7,3.1-12.6,8-16.4"/> </svg>
+        <span>Dia 4</span>
+      </div>
+      <div class="daysColumn boxModelFlex">
+        <svg class="boxModel"xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 53 53.2"xml:space="preserve"> <path fill="none" stroke-miterlimit="10" d="M43.9,5.4h5.5c1.7,0,3,1.4,3,3v41.3c0,1.7-1.3,3-3,3h-46 c-1.6,0-3-1.3-3-3V8.4c0-1.6,1.4-3,3-3h8.3"/> <line fill="none" stroke-miterlimit="10" x1="30.8" y1="5.4" x2="38" y2="5.4"/> <line fill="none" stroke-miterlimit="10" x1="17.7" y1="5.4" x2="24.9" y2="5.4"/> <line fill="none" stroke-miterlimit="10" x1="0.6" y1="19.6" x2="52.4" y2="19.6"/> <line fill="none" stroke-miterlimit="10" x1="12" y1="0" x2="12" y2="11.6"/> <line fill="none" stroke-miterlimit="10" x1="38.2" y1="0" x2="38.2" y2="11.6"/> <line fill="none" stroke-miterlimit="10" x1="25.1" y1="0" x2="25.1" y2="11.6"/> <rect x="18.1" y="35.5" fill="none" stroke-miterlimit="10" width="0.9" height="0.9"/> <rect x="10.1" y="35.5" fill="none" stroke-miterlimit="10" width="0.9" height="0.9"/> <rect x="26.1" y="35.5" fill="none" stroke-miterlimit="10" width="0.9" height="0.9"/> <rect x="34" y="35.5" fill="none" stroke-miterlimit="10" width="0.9" height="0.9"/> <rect x="42" y="35.5" fill="none" stroke-miterlimit="10" width="0.9" height="0.9"/> <rect x="18.1" y="27.5" fill="none" stroke-miterlimit="10" width="0.9" height="0.9"/> <rect x="26.1" y="27.5" fill="none" stroke-miterlimit="10" width="0.9" height="0.9"/> <rect x="34" y="27.5" fill="none" stroke-miterlimit="10" width="0.9" height="0.9"/> <rect x="42" y="27.5" fill="none" stroke-miterlimit="10" width="0.9" height="0.9"/> <rect x="18.1" y="43.5" fill="none" stroke-miterlimit="10" width="0.9" height="0.9"/> <rect x="10.1" y="43.5" fill="none" stroke-miterlimit="10" width="0.9" height="0.9"/> <rect x="26.1" y="43.5" fill="none" stroke-miterlimit="10" width="0.9" height="0.9"/> <rect x="34" y="43.5" fill="none" stroke-miterlimit="10" width="0.9" height="0.9"/> </svg>
+        <span>15/07/2019 (segunda)</span>
+      </div>
+      <div class="daysColumn boxModelFlex">
+        <svg class="boxModel"xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 56.4 56.3"xml:space="preserve"> <line fill="none" stroke-miterlimit="10" x1="28.2" y1="1.3" x2="28.2" y2="8.2"/> <line fill="none" stroke-miterlimit="10" x1="28.2" y1="48.2" x2="28.2" y2="55"/> <line fill="none" stroke-miterlimit="10" x1="54.9" y1="28.2" x2="48" y2="28.2"/> <line fill="none" stroke-miterlimit="10" x1="8" y1="28.2" x2="1.2" y2="28.2"/> <path fill="none" stroke-miterlimit="10" d="M55.9,28.2c0,15.3-12.4,27.7-27.7,27.7c-15.3,0-27.7-12.4-27.7-27.7 c0-15.3,12.4-27.7,27.7-27.7C43.5,0.5,55.9,12.9,55.9,28.2z"/> <polyline fill="none" stroke-miterlimit="10" points="42.5,16.5 28.2,30.8 18.9,22   "/> </svg>
+        <span>Horário: 14h às 16h (tarde)</span>
+      </div>
+    </div>
+    <div amp-fx="fade-in fly-in-bottom" data-duration="880ms" data-fly-in-distance="50%" data-easing="ease-out" class="daysWrapper boxModelGrid">
+      <div class="daysColumn boxModelFlex">
+        <svg class="boxModel" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 56.5 56.5"xml:space="preserve"> <polyline fill="none" stroke="#4BE3AC" stroke-miterlimit="10" points="16.1,26.7 26.8,37.7 39.6,20   "/> <path fill="none" stroke="#4BE3AC" stroke-miterlimit="10" d="M56,28.3C56,43.6,43.6,56,28.3,56C12.9,56,0.5,43.6,0.5,28.3 c0-15.3,12.4-27.8,27.8-27.8C43.6,0.5,56,12.9,56,28.3z"/> <path fill="none" stroke="#4BE3AC" stroke-miterlimit="10" d="M28.3,7.4c11.5,0,20.8,9.3,20.8,20.8s-9.3,20.8-20.8,20.8 c-11.5,0-20.8-9.3-20.8-20.8c0-6.7,3.1-12.6,8-16.4"/> </svg>
+        <span>Dia 5</span>
+      </div>
+      <div class="daysColumn boxModelFlex">
+        <svg class="boxModel"xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 53 53.2"xml:space="preserve"> <path fill="none" stroke-miterlimit="10" d="M43.9,5.4h5.5c1.7,0,3,1.4,3,3v41.3c0,1.7-1.3,3-3,3h-46 c-1.6,0-3-1.3-3-3V8.4c0-1.6,1.4-3,3-3h8.3"/> <line fill="none" stroke-miterlimit="10" x1="30.8" y1="5.4" x2="38" y2="5.4"/> <line fill="none" stroke-miterlimit="10" x1="17.7" y1="5.4" x2="24.9" y2="5.4"/> <line fill="none" stroke-miterlimit="10" x1="0.6" y1="19.6" x2="52.4" y2="19.6"/> <line fill="none" stroke-miterlimit="10" x1="12" y1="0" x2="12" y2="11.6"/> <line fill="none" stroke-miterlimit="10" x1="38.2" y1="0" x2="38.2" y2="11.6"/> <line fill="none" stroke-miterlimit="10" x1="25.1" y1="0" x2="25.1" y2="11.6"/> <rect x="18.1" y="35.5" fill="none" stroke-miterlimit="10" width="0.9" height="0.9"/> <rect x="10.1" y="35.5" fill="none" stroke-miterlimit="10" width="0.9" height="0.9"/> <rect x="26.1" y="35.5" fill="none" stroke-miterlimit="10" width="0.9" height="0.9"/> <rect x="34" y="35.5" fill="none" stroke-miterlimit="10" width="0.9" height="0.9"/> <rect x="42" y="35.5" fill="none" stroke-miterlimit="10" width="0.9" height="0.9"/> <rect x="18.1" y="27.5" fill="none" stroke-miterlimit="10" width="0.9" height="0.9"/> <rect x="26.1" y="27.5" fill="none" stroke-miterlimit="10" width="0.9" height="0.9"/> <rect x="34" y="27.5" fill="none" stroke-miterlimit="10" width="0.9" height="0.9"/> <rect x="42" y="27.5" fill="none" stroke-miterlimit="10" width="0.9" height="0.9"/> <rect x="18.1" y="43.5" fill="none" stroke-miterlimit="10" width="0.9" height="0.9"/> <rect x="10.1" y="43.5" fill="none" stroke-miterlimit="10" width="0.9" height="0.9"/> <rect x="26.1" y="43.5" fill="none" stroke-miterlimit="10" width="0.9" height="0.9"/> <rect x="34" y="43.5" fill="none" stroke-miterlimit="10" width="0.9" height="0.9"/> </svg>
+        <span>19/07/2019 (sexta)</span>
+      </div>
+      <div class="daysColumn boxModelFlex">
+        <svg class="boxModel"xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 56.4 56.3"xml:space="preserve"> <line fill="none" stroke-miterlimit="10" x1="28.2" y1="1.3" x2="28.2" y2="8.2"/> <line fill="none" stroke-miterlimit="10" x1="28.2" y1="48.2" x2="28.2" y2="55"/> <line fill="none" stroke-miterlimit="10" x1="54.9" y1="28.2" x2="48" y2="28.2"/> <line fill="none" stroke-miterlimit="10" x1="8" y1="28.2" x2="1.2" y2="28.2"/> <path fill="none" stroke-miterlimit="10" d="M55.9,28.2c0,15.3-12.4,27.7-27.7,27.7c-15.3,0-27.7-12.4-27.7-27.7 c0-15.3,12.4-27.7,27.7-27.7C43.5,0.5,55.9,12.9,55.9,28.2z"/> <polyline fill="none" stroke-miterlimit="10" points="42.5,16.5 28.2,30.8 18.9,22   "/> </svg>
+        <span>Horário: 10h às 12h (manhã)</span>
+      </div>
+    </div>
+    <div amp-fx="fade-in fly-in-bottom" data-duration="900ms" data-fly-in-distance="50%" data-easing="ease-out" class="daysWrapper boxModelGrid">
+      <div class="daysColumn boxModelFlex">
+        <svg class="boxModel" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 56.5 56.5"xml:space="preserve"> <polyline fill="none" stroke="#4BE3AC" stroke-miterlimit="10" points="16.1,26.7 26.8,37.7 39.6,20   "/> <path fill="none" stroke="#4BE3AC" stroke-miterlimit="10" d="M56,28.3C56,43.6,43.6,56,28.3,56C12.9,56,0.5,43.6,0.5,28.3 c0-15.3,12.4-27.8,27.8-27.8C43.6,0.5,56,12.9,56,28.3z"/> <path fill="none" stroke="#4BE3AC" stroke-miterlimit="10" d="M28.3,7.4c11.5,0,20.8,9.3,20.8,20.8s-9.3,20.8-20.8,20.8 c-11.5,0-20.8-9.3-20.8-20.8c0-6.7,3.1-12.6,8-16.4"/> </svg>
+        <span>Dia 5</span>
+      </div>
+      <div class="daysColumn boxModelFlex">
+        <svg class="boxModel"xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 53 53.2"xml:space="preserve"> <path fill="none" stroke-miterlimit="10" d="M43.9,5.4h5.5c1.7,0,3,1.4,3,3v41.3c0,1.7-1.3,3-3,3h-46 c-1.6,0-3-1.3-3-3V8.4c0-1.6,1.4-3,3-3h8.3"/> <line fill="none" stroke-miterlimit="10" x1="30.8" y1="5.4" x2="38" y2="5.4"/> <line fill="none" stroke-miterlimit="10" x1="17.7" y1="5.4" x2="24.9" y2="5.4"/> <line fill="none" stroke-miterlimit="10" x1="0.6" y1="19.6" x2="52.4" y2="19.6"/> <line fill="none" stroke-miterlimit="10" x1="12" y1="0" x2="12" y2="11.6"/> <line fill="none" stroke-miterlimit="10" x1="38.2" y1="0" x2="38.2" y2="11.6"/> <line fill="none" stroke-miterlimit="10" x1="25.1" y1="0" x2="25.1" y2="11.6"/> <rect x="18.1" y="35.5" fill="none" stroke-miterlimit="10" width="0.9" height="0.9"/> <rect x="10.1" y="35.5" fill="none" stroke-miterlimit="10" width="0.9" height="0.9"/> <rect x="26.1" y="35.5" fill="none" stroke-miterlimit="10" width="0.9" height="0.9"/> <rect x="34" y="35.5" fill="none" stroke-miterlimit="10" width="0.9" height="0.9"/> <rect x="42" y="35.5" fill="none" stroke-miterlimit="10" width="0.9" height="0.9"/> <rect x="18.1" y="27.5" fill="none" stroke-miterlimit="10" width="0.9" height="0.9"/> <rect x="26.1" y="27.5" fill="none" stroke-miterlimit="10" width="0.9" height="0.9"/> <rect x="34" y="27.5" fill="none" stroke-miterlimit="10" width="0.9" height="0.9"/> <rect x="42" y="27.5" fill="none" stroke-miterlimit="10" width="0.9" height="0.9"/> <rect x="18.1" y="43.5" fill="none" stroke-miterlimit="10" width="0.9" height="0.9"/> <rect x="10.1" y="43.5" fill="none" stroke-miterlimit="10" width="0.9" height="0.9"/> <rect x="26.1" y="43.5" fill="none" stroke-miterlimit="10" width="0.9" height="0.9"/> <rect x="34" y="43.5" fill="none" stroke-miterlimit="10" width="0.9" height="0.9"/> </svg>
+        <span>19/07/2019 (sexta) por HANGOUT (online)</span>
+      </div>
+      <div class="daysColumn boxModelFlex">
+        <svg class="boxModel"xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 56.4 56.3"xml:space="preserve"> <line fill="none" stroke-miterlimit="10" x1="28.2" y1="1.3" x2="28.2" y2="8.2"/> <line fill="none" stroke-miterlimit="10" x1="28.2" y1="48.2" x2="28.2" y2="55"/> <line fill="none" stroke-miterlimit="10" x1="54.9" y1="28.2" x2="48" y2="28.2"/> <line fill="none" stroke-miterlimit="10" x1="8" y1="28.2" x2="1.2" y2="28.2"/> <path fill="none" stroke-miterlimit="10" d="M55.9,28.2c0,15.3-12.4,27.7-27.7,27.7c-15.3,0-27.7-12.4-27.7-27.7 c0-15.3,12.4-27.7,27.7-27.7C43.5,0.5,55.9,12.9,55.9,28.2z"/> <polyline fill="none" stroke-miterlimit="10" points="42.5,16.5 28.2,30.8 18.9,22   "/> </svg>
+        <span>Horário: 10h às 12h (manhã)</span>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<div class="ctaWrapper boxModelFlex">
+
+  <a amp-fx="fade-in fly-in-bottom" data-duration="500ms" data-fly-in-distance="50%" data-easing="ease-out" class="ctaBtn1 boxModelFlex" href="https://docs.google.com/forms/d/e/1FAIpQLScDcFbla60Tfwd-XtfQq3qtr_eyObPFcIwLByAwjO0IHG63ZA/viewform" target="_blank">
+  <span>FAZER MINHA INSCRIÇÃO GRÁTIS</span>
+  <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 51.8 51.8"xml:space="preserve"> <path d="M0,25.9c0,14.3,11.6,25.9,25.9,25.9s25.9-11.6,25.9-25.9S40.2,0,25.9,0S0,11.6,0,25.9z M25.9,3.3 c12.4,0,22.6,10,22.6,22.6c0,12.4-10,22.6-22.6,22.6c-12.4,0-22.6-10-22.6-22.6C3.3,13.5,13.4,3.3,25.9,3.3z M27.2,13l12,12 c0.5,0.5,0.5,1.3,0,1.8l-12,12c-0.5,0.5-1.3,0.5-1.8,0l-0.7-0.7c-0.5-0.5-0.5-1.3,0-1.8l8.9-8.6H13.8c-0.7,0-1.3-0.6-1.3-1.3v-1 c0-0.7,0.6-1.3,1.3-1.3h19.9l-8.9-8.6c-0.5-0.5-0.5-1.3,0-1.8l0.7-0.7C25.9,12.5,26.7,12.5,27.2,13L27.2,13z"/> </svg>
+</a>
+</div>
+<!-- 
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d914.2097200370041!2d-46.63785877075336!3d-23.574229469862455!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce599bed1cc0a1%3A0x6e621c0009472525!2sR.+do+Para%C3%ADso%2C+595+-+Para%C3%ADso%2C+S%C3%A3o+Paulo+-+SP%2C+04103-001!5e0!3m2!1sen!2sbr!4v1561479045537!5m2!1sen!2sbr" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe> -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="onde boxModelGrid">
+  <span amp-fx="fade-in fly-in-bottom" data-duration="500ms" data-fly-in-distance="50%" data-easing="ease-out" class="boxModel">Onde</span>
+  <div amp-fx="fade-in fly-in-bottom" data-duration="700ms" data-fly-in-distance="50%" data-easing="ease-out" class="endereco">
+    <span class="adressText boxModel">Os treinos PRESENCIAIS acontecem em São Paulo,<br><br>na sede da Boxnet (antiga Maxpress), na rua do Paraíso, 595, Vila Mariana. Veja o mapa abaixo:
+
+<br><br>Referências:
+5 minutos do metrô Paraíso - Linha azul do metrô. O prédio é próximo ao Hospital e Maternidade Santa Joana.
+<br>Edifício Joana:</span>
+  </div>
+  <amp-img amp-fx="fade-in fly-in-bottom" data-duration="800ms" data-fly-in-distance="50%" data-easing="ease-out" alt="" src="img/local.jpg" width="600" height="450" layout="responsive"></amp-img>
+  <amp-iframe amp-fx="fade-in fly-in-bottom" data-duration="900ms" data-fly-in-distance="50%" data-easing="ease-out" width="600"
+    height="200"
+    title="local do treinamento BOXNET"
+    layout="responsive"
+    sandbox="allow-scripts allow-same-origin allow-popups"
+    frameborder="0"
+    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d914.2097200370041!2d-46.63785877075336!3d-23.574229469862455!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce599bed1cc0a1%3A0x6e621c0009472525!2sR.+do+Para%C3%ADso%2C+595+-+Para%C3%ADso%2C+S%C3%A3o+Paulo+-+SP%2C+04103-001!5e0!3m2!1sen!2sbr!4v1561479045537!5m2!1sen!2sbr" allowfullscreen>
+  </amp-iframe>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div amp-fx="fade-in fly-in-bottom" data-duration="500ms" data-fly-in-distance="50%" data-easing="ease-out" class="premios boxModelGrid">
+  <h1 amp-fx="fade-in fly-in-bottom" data-duration="700ms" data-fly-in-distance="50%" data-easing="ease-out" >Quem participar do treinamento também concorre a prêmios:</h1>
+  <h2 amp-fx="fade-in fly-in-bottom" data-duration="800ms" data-fly-in-distance="50%" data-easing="ease-out" >Em cada treinamento, sortearemos 1 par de ingressos de cinema. Após o fim dos cursos, todos os participantes concorrem a um curso online de comunicação (a definir).</h2>
+  <amp-img amp-fx="fade-in fly-in-bottom" data-duration="900ms" data-fly-in-distance="50%" data-easing="ease-out" alt="" src="img/mockup.png" width="500" height="253" layout="responsive"></amp-img>
+  <amp-img amp-fx="fade-in fly-in-bottom" data-duration="950ms" data-fly-in-distance="50%" data-easing="ease-out" alt="" src="img/cinema.png" width="400" height="212" layout="responsive"></amp-img>
+
+</div>
+
+
+
+
+
+
+<div amp-fx="fade-in fly-in-bottom" data-duration="500ms" data-fly-in-distance="50%" data-easing="ease-out" class="ctaWrapper boxModelFlex">
+  <a class="ctaBtn1 boxModelFlex" href="https://docs.google.com/forms/d/e/1FAIpQLScDcFbla60Tfwd-XtfQq3qtr_eyObPFcIwLByAwjO0IHG63ZA/viewform" target="_blank">
+    <span >QUERO CONCORRER A PRÊMIOS</span>
+    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 51.8 51.8"xml:space="preserve"> <path d="M0,25.9c0,14.3,11.6,25.9,25.9,25.9s25.9-11.6,25.9-25.9S40.2,0,25.9,0S0,11.6,0,25.9z M25.9,3.3 c12.4,0,22.6,10,22.6,22.6c0,12.4-10,22.6-22.6,22.6c-12.4,0-22.6-10-22.6-22.6C3.3,13.5,13.4,3.3,25.9,3.3z M27.2,13l12,12 c0.5,0.5,0.5,1.3,0,1.8l-12,12c-0.5,0.5-1.3,0.5-1.8,0l-0.7-0.7c-0.5-0.5-0.5-1.3,0-1.8l8.9-8.6H13.8c-0.7,0-1.3-0.6-1.3-1.3v-1 c0-0.7,0.6-1.3,1.3-1.3h19.9l-8.9-8.6c-0.5-0.5-0.5-1.3,0-1.8l0.7-0.7C25.9,12.5,26.7,12.5,27.2,13L27.2,13z"/> </svg>
+  </a>
+</div>
+
+
+
+
+
+
+
+
+
+
+<div class="videos boxModelGrid">
+  <h1 amp-fx="fade-in fly-in-bottom" data-duration="500ms" data-fly-in-distance="50%" data-easing="ease-out" >Confira os conteúdos I’Max no Youtube:</h1>
+  <a amp-fx="fade-in fly-in-bottom" data-duration="520ms" data-fly-in-distance="50%" data-easing="ease-out" class="video boxModelGrid boxShadow" href="https://youtu.be/V7gp4JLLW1s" target="_blank">
+    <div class="videoBG boxModel"></div>
+    <svg class="boxModel"xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 121.3 85.6"xml:space="preserve"> <path fill="none" stroke="#4BE3AC" stroke-miterlimit="10" d="M118.3,13.7c-1.4-5.2-5.5-9.3-10.6-10.7c-9.4-2.5-47-2.5-47-2.5 S23,0.5,13.7,3C8.5,4.4,4.4,8.5,3,13.7c-2.5,9.4-2.5,29.1-2.5,29.1S0.5,62.6,3,72c1.4,5.2,5.5,9.1,10.6,10.5c9.4,2.5,47,2.5,47,2.5 s37.6,0,47-2.5c5.2-1.4,9.3-5.3,10.6-10.5c2.5-9.4,2.5-29.1,2.5-29.1S120.8,23.2,118.3,13.7z M48.4,60.8V25l31.4,17.9L48.4,60.8 L48.4,60.8z"/> </svg>
+    <span>Vídeo institucional I'Max</span>
+  </a>
+  <a amp-fx="fade-in fly-in-bottom" data-duration="540ms" data-fly-in-distance="50%" data-easing="ease-out" class="video boxModelGrid boxShadow" href="https://youtu.be/W48oejbXE58" target="_blank">
+    <div class="videoBG boxModel"></div>
+    <svg class="boxModel"xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 121.3 85.6"xml:space="preserve"> <path fill="none" stroke="#4BE3AC" stroke-miterlimit="10" d="M118.3,13.7c-1.4-5.2-5.5-9.3-10.6-10.7c-9.4-2.5-47-2.5-47-2.5 S23,0.5,13.7,3C8.5,4.4,4.4,8.5,3,13.7c-2.5,9.4-2.5,29.1-2.5,29.1S0.5,62.6,3,72c1.4,5.2,5.5,9.1,10.6,10.5c9.4,2.5,47,2.5,47,2.5 s37.6,0,47-2.5c5.2-1.4,9.3-5.3,10.6-10.5c2.5-9.4,2.5-29.1,2.5-29.1S120.8,23.2,118.3,13.7z M48.4,60.8V25l31.4,17.9L48.4,60.8 L48.4,60.8z"/> </svg>
+    <span>Vídeo produto I'Max</span>
+  </a>
+  <a amp-fx="fade-in fly-in-bottom" data-duration="560ms" data-fly-in-distance="50%" data-easing="ease-out" class="video boxModelGrid boxShadow" href="https://youtu.be/wsNmpfdKfVU" target="_blank">
+    <div class="videoBG boxModel"></div>
+    <svg class="boxModel"xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 121.3 85.6"xml:space="preserve"> <path fill="none" stroke="#4BE3AC" stroke-miterlimit="10" d="M118.3,13.7c-1.4-5.2-5.5-9.3-10.6-10.7c-9.4-2.5-47-2.5-47-2.5 S23,0.5,13.7,3C8.5,4.4,4.4,8.5,3,13.7c-2.5,9.4-2.5,29.1-2.5,29.1S0.5,62.6,3,72c1.4,5.2,5.5,9.1,10.6,10.5c9.4,2.5,47,2.5,47,2.5 s37.6,0,47-2.5c5.2-1.4,9.3-5.3,10.6-10.5c2.5-9.4,2.5-29.1,2.5-29.1S120.8,23.2,118.3,13.7z M48.4,60.8V25l31.4,17.9L48.4,60.8 L48.4,60.8z"/> </svg>
+    <span>Fernanda Lara
+apresenta o I'Max</span>
+  </a>
+  <a amp-fx="fade-in fly-in-bottom" data-duration="580ms" data-fly-in-distance="50%" data-easing="ease-out" class="video boxModelGrid boxShadow" href="https://youtu.be/JLL1Y19dvbc" target="_blank">
+    <div class="videoBG boxModel"></div>
+    <svg class="boxModel"xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 121.3 85.6"xml:space="preserve"> <path fill="none" stroke="#4BE3AC" stroke-miterlimit="10" d="M118.3,13.7c-1.4-5.2-5.5-9.3-10.6-10.7c-9.4-2.5-47-2.5-47-2.5 S23,0.5,13.7,3C8.5,4.4,4.4,8.5,3,13.7c-2.5,9.4-2.5,29.1-2.5,29.1S0.5,62.6,3,72c1.4,5.2,5.5,9.1,10.6,10.5c9.4,2.5,47,2.5,47,2.5 s37.6,0,47-2.5c5.2-1.4,9.3-5.3,10.6-10.5c2.5-9.4,2.5-29.1,2.5-29.1S120.8,23.2,118.3,13.7z M48.4,60.8V25l31.4,17.9L48.4,60.8 L48.4,60.8z"/> </svg>
+    <span>Editor de conteúdo I'Max</span>
+  </a>
+  <a amp-fx="fade-in fly-in-bottom" data-duration="600ms" data-fly-in-distance="50%" data-easing="ease-out" class="video boxModelGrid boxShadow" href="https://youtu.be/Qh7xtwSiA0A" target="_blank">
+    <div class="videoBG boxModel"></div>
+    <svg class="boxModel"xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 121.3 85.6"xml:space="preserve"> <path fill="none" stroke="#4BE3AC" stroke-miterlimit="10" d="M118.3,13.7c-1.4-5.2-5.5-9.3-10.6-10.7c-9.4-2.5-47-2.5-47-2.5 S23,0.5,13.7,3C8.5,4.4,4.4,8.5,3,13.7c-2.5,9.4-2.5,29.1-2.5,29.1S0.5,62.6,3,72c1.4,5.2,5.5,9.1,10.6,10.5c9.4,2.5,47,2.5,47,2.5 s37.6,0,47-2.5c5.2-1.4,9.3-5.3,10.6-10.5c2.5-9.4,2.5-29.1,2.5-29.1S120.8,23.2,118.3,13.7z M48.4,60.8V25l31.4,17.9L48.4,60.8 L48.4,60.8z"/> </svg>
+    <span>Mailing e Disparo I'Max</span>
+  </a>
+  <a amp-fx="fade-in fly-in-bottom" data-duration="620ms" data-fly-in-distance="50%" data-easing="ease-out" class="video boxModelGrid boxShadow" href="https://youtu.be/OQspiwRcrGg" target="_blank">
+    <div class="videoBG boxModel"></div>
+    <svg class="boxModel"xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 121.3 85.6"xml:space="preserve"> <path fill="none" stroke="#4BE3AC" stroke-miterlimit="10" d="M118.3,13.7c-1.4-5.2-5.5-9.3-10.6-10.7c-9.4-2.5-47-2.5-47-2.5 S23,0.5,13.7,3C8.5,4.4,4.4,8.5,3,13.7c-2.5,9.4-2.5,29.1-2.5,29.1S0.5,62.6,3,72c1.4,5.2,5.5,9.1,10.6,10.5c9.4,2.5,47,2.5,47,2.5 s37.6,0,47-2.5c5.2-1.4,9.3-5.3,10.6-10.5c2.5-9.4,2.5-29.1,2.5-29.1S120.8,23.2,118.3,13.7z M48.4,60.8V25l31.4,17.9L48.4,60.8 L48.4,60.8z"/> </svg>
+    <span>Configurações iniciais I'Max</span>
+  </a>
+  <a amp-fx="fade-in fly-in-bottom" data-duration="640ms" data-fly-in-distance="50%" data-easing="ease-out" class="video boxModelGrid boxShadow" href="https://youtu.be/zZJHzCf8m4Q" target="_blank">
+    <div class="videoBG boxModel"></div>
+    <svg class="boxModel"xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 121.3 85.6"xml:space="preserve"> <path fill="none" stroke="#4BE3AC" stroke-miterlimit="10" d="M118.3,13.7c-1.4-5.2-5.5-9.3-10.6-10.7c-9.4-2.5-47-2.5-47-2.5 S23,0.5,13.7,3C8.5,4.4,4.4,8.5,3,13.7c-2.5,9.4-2.5,29.1-2.5,29.1S0.5,62.6,3,72c1.4,5.2,5.5,9.1,10.6,10.5c9.4,2.5,47,2.5,47,2.5 s37.6,0,47-2.5c5.2-1.4,9.3-5.3,10.6-10.5c2.5-9.4,2.5-29.1,2.5-29.1S120.8,23.2,118.3,13.7z M48.4,60.8V25l31.4,17.9L48.4,60.8 L48.4,60.8z"/> </svg>
+    <span>Registro I'Max</span>
+  </a>
+  <a amp-fx="fade-in fly-in-bottom" data-duration="660ms" data-fly-in-distance="50%" data-easing="ease-out" class="video boxModelGrid boxShadow" href="https://youtu.be/BhKA-jqeAqU" target="_blank">
+    <div class="videoBG boxModel"></div>
+    <svg class="boxModel"xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 121.3 85.6"xml:space="preserve"> <path fill="none" stroke="#4BE3AC" stroke-miterlimit="10" d="M118.3,13.7c-1.4-5.2-5.5-9.3-10.6-10.7c-9.4-2.5-47-2.5-47-2.5 S23,0.5,13.7,3C8.5,4.4,4.4,8.5,3,13.7c-2.5,9.4-2.5,29.1-2.5,29.1S0.5,62.6,3,72c1.4,5.2,5.5,9.1,10.6,10.5c9.4,2.5,47,2.5,47,2.5 s37.6,0,47-2.5c5.2-1.4,9.3-5.3,10.6-10.5c2.5-9.4,2.5-29.1,2.5-29.1S120.8,23.2,118.3,13.7z M48.4,60.8V25l31.4,17.9L48.4,60.8 L48.4,60.8z"/> </svg>
+    <span>Conheça as vantagens do
+I'Max Pocket Press</span>
+  </a>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div amp-fx="fade-in fly-in-bottom" data-duration="500ms" data-fly-in-distance="50%" data-easing="ease-out" class="footer boxModel">
+  <div amp-fx="fade-in fly-in-bottom" data-duration="600ms" data-fly-in-distance="50%" data-easing="ease-out" class="certificado boxModelGrid">
+    <span class="boxModel">Os participantes receberão certificado online. Os sorteios de ingressos acontecem no local, com os participantes do dia. Já o do curso acontecerá após o fim dos cursos, com todos os participantes concorrendo.</span>
+    <amp-img amp-fx="fade-in fly-in-bottom" data-duration="700ms" data-fly-in-distance="50%" data-easing="ease-out" alt="" src="img/certificado.jpg" width="400" height="283" layout="responsive"></amp-img>
+  </div>
+  <h2 amp-fx="fade-in fly-in-bottom" data-duration="800ms" data-fly-in-distance="50%" data-easing="ease-out" class="boxModel">Em breve, também teremos tutoriais do I'Max disponíveis no YouTube e em uma plataforma de ensino. Aguardem!</h2>
+  <div amp-fx="fade-in fly-in-bottom" data-duration="900ms" data-fly-in-distance="50%" data-easing="ease-out" class="warning boxModelGrid">
+    <svg class="boxModel"xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 80 80"xml:space="preserve"> <path fill="#FFCB05" d="M40,5.2c19.1,0,34.8,15.5,34.8,34.8c0,19.2-15.6,34.8-34.8,34.8C20.8,74.8,5.2,59.3,5.2,40 C5.2,20.8,20.7,5.2,40,5.2 M40,0C17.9,0,0,17.9,0,40c0,22.1,17.9,40,40,40s40-17.9,40-40C80,17.9,62.1,0,40,0z M38.1,19.4h3.7 c1.1,0,2,0.9,1.9,2l-1.1,27.1c0,1-0.9,1.9-1.9,1.9h-1.4c-1,0-1.9-0.8-1.9-1.9l-1.1-27.1C36.2,20.3,37,19.4,38.1,19.4L38.1,19.4z M40,53.5c-2.5,0-4.5,2-4.5,4.5c0,2.5,2,4.5,4.5,4.5c2.5,0,4.5-2,4.5-4.5C44.5,55.6,42.5,53.5,40,53.5z"/> </svg>
+    <h3 class="boxModel">Os sistemas I'M Press e Maxpress deixarão de funcionar em 30/08/2019.</h3>
+    <svg class="boxModel"xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 80 80"xml:space="preserve"> <path fill="#FFCB05" d="M40,5.2c19.1,0,34.8,15.5,34.8,34.8c0,19.2-15.6,34.8-34.8,34.8C20.8,74.8,5.2,59.3,5.2,40 C5.2,20.8,20.7,5.2,40,5.2 M40,0C17.9,0,0,17.9,0,40c0,22.1,17.9,40,40,40s40-17.9,40-40C80,17.9,62.1,0,40,0z M38.1,19.4h3.7 c1.1,0,2,0.9,1.9,2l-1.1,27.1c0,1-0.9,1.9-1.9,1.9h-1.4c-1,0-1.9-0.8-1.9-1.9l-1.1-27.1C36.2,20.3,37,19.4,38.1,19.4L38.1,19.4z M40,53.5c-2.5,0-4.5,2-4.5,4.5c0,2.5,2,4.5,4.5,4.5c2.5,0,4.5-2,4.5-4.5C44.5,55.6,42.5,53.5,40,53.5z"/> </svg>
+  </div>
+
+  <p>© COPYRIGHT I'MAX 2019 - Todos os direitos reservados.</p>
+</div>
+
+
+
+
+
+  </body>
+
+
+</html>
+
+
